@@ -1,0 +1,54 @@
+.footer {
+    background-image: url('../images/footer.png');
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 10px;
+    width: 100vw;
+    height: 500px;
+}
+.ftrLinks {
+    color: black;
+    text-decoration: none;
+}
+#footerPages {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60vw;
+    margin: 0px auto;
+    justify-content: center;
+}
+.mainHeader {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 4em;
+    color: #2a2828;
+    font-weight: 500;
+    text-shadow: 2px 4px 1px rgb(199, 192, 192), 0 0 1em #695449, 0 0 0.2em #000000a2;
+    text-align: center;
+    margin-top: 20px;
+}
+.menuLinkStyle {
+    list-style-type: none;
+    font-family: 'Arsenal', sans-serif;
+    text-decoration: none;
+    color: #6B5347;
+    margin: -20px 10px 0px 10px;
+}
+.myNavStyle a:hover {
+    color: #D2DBDF !important;
+}
+.myNavStyle a:active, .myNavStyle a:focus  {
+    color: #475F6B !important;
+}
+.myNavStyle {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1.5em;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.primaryHR {
+    width: 100vw;
+}

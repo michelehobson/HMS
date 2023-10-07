@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(-130deg,#9aaeb8 60%, #fff);
+    overflow-x: hidden;
+}
+main {
+    background: linear-gradient(-130deg,#9aaeb8 60%, #fff);
+    height: 900px;
+}
+#aboutMain {
+    background: transparent;
+    margin-left: 26vw;
+    width: 50vw;
+    height: 900px;
+}
+.aboutHDR {
+    font-family: 'Corben', cursive;
+    font-size: 37px;
+    color: #475F6B;
+} 
+.para1 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 26px;
+    color: #475F6B;
+}
+.para2 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 26px;
+    color: #475F6B;
+}
+.para3 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 26px;
+    color: #475F6B;
+}
+.para4 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 26px;
+    color: #475F6B;
+}
+.para5 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 26px;
+    color: #475F6B;
+}

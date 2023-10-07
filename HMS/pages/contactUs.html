@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/HMS.ico">
+    <link rel="stylesheet" href="https://srv487-files.hstgr.io/225f5bd2b734341e/files/public_html/css/ResetCss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=Corben&family=Niconne&family=Playfair+Display:wght@500&family=Prompt:wght@100;200;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <p class="mainHeader">Human Management Systems</p>
+        <nav class="myNavStyle">
+            <a class="menuLinkStyle" href="index.html">Home</a>
+            <a class="menuLinkStyle" href="about.html">About</a>
+            <a class="menuLinkStyle" href="products.html">Products</a>
+            <a class="menuLinkStyle" href="contactUs.html">Contact Us</a>
+            <a class="menuLinkStyle" href="#">Setup</a>
+            <a class="menuLinkStyle" href="#">Why HMS</a>
+            <a class="menuLinkStyle" href="signin.html">Sign In/Register</a>
+        </nav>
+        <br>
+        <hr class="primaryHR">
+    </header>
+
+    <main>
+        <div id="box1">
+            <div id="box2">
+                <!-- <span>Contact Us</span> -->
+                <div id="pic">
+                    <img class="pic" src="../images/pexels-life-of-pix-7974.jpg" alt="desk">
+                    <section id="form">
+                        <form action="contactUs.html">
+                            <label class="label col1" for="first">First Name*</label>
+                            <label class="label col2" for="last">Last Name*</label><br>
+                            <input class="input col1" type="text" id="first" required>
+                            <input class="input col2" type="text" id="last" required>
+                            <br><br>
+
+                            <label class="label col1" for="company">Company</label>
+                            <label class="label col2" for="title">Title</label><br>
+                            <input class="input col1" type="text" id="company" required>
+                            <input class="input col2" type="text" id="title" required>
+                            <br><br>
+
+                            <label class="label col1" for="email">Email</label>
+                            <label class="label col2" for="phone">Phone</label><br>
+                            <input class="input col1" type="email" id="email" required>
+                            <input class="input col2" type="tel" id="phone" required>
+                            <br><br>
+
+                            <label class="label col1">How Did You Hear About Us?</label>
+                            <label class="label col2" for="reason">Reason for Contact:</label><br>
+                            <select class="input col1" id="referrer">
+                                <option value=""></option>
+                                <option value="client">I'm a Current Client</option>
+                                <option value="webSearch">Internet Search</option>
+                                <option value="email">Email Marketing</option>
+                                <option value="referral">Referral</option>
+                                <option value="social">Social Media</option>
+                                <option value="website">Website</option>
+                            </select>
+                            <input style="margin-left: 9px;" class="ckBox" type="checkbox" id="reason">&nbsp;Pricing&nbsp;&nbsp;
+                            <input class="ckBox" type="checkbox" id="reason">&nbsp;Product Information&nbsp;&nbsp;
+                            <input class="ckBox" type="checkbox" id="reason">&nbsp;Other
+                            <br><br>
+
+                            <label class="label col1" for="msg">Message*</label>
+                            <label class="label col2" hidden></label><br>
+                            <textarea class="textArea" id="msg" cols="50" rows="5"></textarea>
+                            <br><br>
+
+                            <div id="btns">
+                                <input class="btn"type="submit" value="Reset">
+                                <input class="btn"type="submit" value="Send">
+                            </div>
+
+
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <span style="display: flex; justify-content: center; margin-left: auto; margin-right: auto;">&copy; Human Management Systems &nbsp; <span class="separator">|</span> &nbsp; Designed by Michele Hobson</span><br>
+        <section id="footerPages">
+            <div style="margin-right: 25px;">
+                <a class="ftrLinks" href="#">Privacy Policy</a><br>
+                <a class="ftrLinks" href="#">Terms of Use</a><br>
+                <a class="ftrLinks" href="#">Refund Policy</a><br>
+            </div>
+            <div style="margin-left: 25px;">
+                <a class="ftrLinks" href="#">EULA</a><br>
+                <a class="ftrLinks" href="#">FAQ</a><br>
+                <a class="ftrLinks" href="#">Feedback</a><br>
+            </div>
+        </section>
+    </footer>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
+</body>
+
+</html>

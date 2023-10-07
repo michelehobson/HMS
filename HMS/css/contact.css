@@ -1,0 +1,110 @@
+body {
+    background-color: #9aaeb8 !important;
+    overflow-x: hidden;
+}
+main {
+    background-color: #9aaeb8 !important;
+    height: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+#form #btns {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-left: -5vw;
+}
+#form .btn {
+    height: 40px;
+    width: 150px;
+    font-family: 'Arsenal', sans-serif;
+    background: #cdd7db;
+    border-radius: 0px;
+    box-shadow: 0 0.5em 0.5em .5em rgba(0, 0, 0, 0.406);
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+}
+#box1 {
+    background: linear-gradient(90deg,#A8A8A8 30%, #cdd7db);
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+}
+#box2 {
+    background-color: #616161;
+    width: 65vw;
+    height: 89.5vh;
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:5vh;
+}
+#box2 span {
+    font-family: 'Corben', cursive;
+    color: #F1F1F3;
+    text-shadow: 2px 4px 1px #695449, 0 0 0.2em #000000a2;
+    text-align: center;
+
+    margin-top: 15px;
+    margin-left: 300px;
+}
+#pic {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 8vh;
+    opacity: 75%;
+}
+#pic img {
+    width: 55vw;
+    margin-left: 105px;
+    margin-top: -20px;
+}
+#form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 60vw;
+    margin-top: -70vh;
+    margin-left: 120px;
+    font-family: 'Prompt', sans-serif;
+    color: #F1F1F3;
+}
+.col1 {
+    width: 13vw;
+    margin-right: 10px;
+}
+.col2 {
+    width: 13vw;
+    margin-left: 10px;
+    opacity: 100%;
+}
+.input {
+    border: 1px solid rgba(0, 0, 0, 0.657);
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 1em;
+    color: black;
+    opacity: 100%;
+}
+.label {
+    width: 13vw;
+    font-weight: 400;
+    font-size: 1em;
+    opacity: 100%;
+}
+.ckBox {
+    font-weight: 400;
+    font-size: 1em;
+}
+.textArea {
+    border-radius: 5px;
+    opacity: 100%;
+}
+.lineSpacing {
+    padding-bottom: 5px;
+}

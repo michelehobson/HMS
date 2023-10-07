@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/HMS.ico">
+    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="https://srv487-files.hstgr.io/225f5bd2b734341e/files/public_html/css/ResetCss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=Corben&family=Niconne&family=Playfair+Display:wght@500&family=Prompt:wght@100;200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        body::after {
+            content: "";
+            background: url(../images/imgHMS.png);
+            background-size: 30em;
+            opacity: 0.7;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .box {
+            background-color: #9AEBA6;
+            width: 20vw;
+            height: 60vh;
+            margin: 15vh 20vw 20vh 39.5vw;
+        }
+        .close {
+            float: right;
+            margin-right: 5px;
+            margin: 15px 15px 0px 0px;
+            width: 25px;
+        }
+        p {
+            font-family: 'Playfair Display', sans-serif;
+            font-size: 3vw;
+            margin: 20px 20vw 0px 25vw;
+            text-align: center;
+            width: 50vw;
+            color: #164350;
+        }
+        .labelHdr {
+            font-family: 'Corben', cursive;
+            font-size: 28px;
+            color: #027095;
+            display: flex;
+            justify-content: center;
+            margin-top: 5vh;
+        }
+        .showError {
+            font-family: 'Arsenal', sans-serif;
+            font-size: 20px;
+            color: #9341D6;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .error {
+            font-family: 'Arsenal', sans-serif;
+            font-size: 20px;
+            color: #9AEBA6;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .inputs {
+            margin: 20px auto;
+            width: 15vw;
+            display: flex;
+            justify-content: center;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid #41D657;
+        }
+        .btn {
+            height: 40px;
+            width: 150px;
+            font-family: 'Arsenal', sans-serif;
+            font-size: 20px;
+            margin-top: 100px;
+            margin-left: 100px;
+            width: 100px;
+        }
+        .reg a{
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+            color: #292F33;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .pswd a{
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            color: #292F33;
+            font-size: 16px;
+            text-decoration: none;
+       }
+
+    </style>
+</head>
+
+<body>
+    <p class="header">Human Management Systems</p>
+    <br>
+    <div class="box">
+        <a href="index.html"><img class="close" src="../images/close.png" alt=""></a>
+        <form action="#" id="form">
+            <label class="labelHdr">Sign In to Your Account</label>
+            <!-- 
+                I will use the following line once I begin adding JavaScript.
+
+            <label class="showError" hidden>Oops! Check your info and try again</label>
+
+                I added the second "class="error" label because I didn't like how it affected the 
+                margin once the line was hidden. I need time to work on that.
+            -->
+            <label class="showError" hidden>Oops! Check your info and try again</label>
+            <label class="error">Oops! Check your info and try again</label> 
+
+            <input type="email" id="email" placeholder="Email" required class="inputs">
+            <input type="password" id="pwd" placeholder="Password" required class="inputs">
+
+            <section class="btn">
+                <input type="submit" value="Sign In" style="height: 40px; width: 150px; color: #F1F1F3; background-color: #9341D6; border-color: #9341D6; border-radius: 25px;" >
+            </section>
+
+            <section class="reg">
+                <a href="register.html">Need an account? Register here.</a>
+            </section>
+            <section class="pswd">
+                <a href="#">Forgot Password</a>
+            </section>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
